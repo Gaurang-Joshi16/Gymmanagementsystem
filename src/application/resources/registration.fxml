@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.controller.RegistrationController"
+            stylesheets="@style.css">
+
+    <children>
+        <VBox alignment="CENTER" spacing="15">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <Label text="Member Registration" styleClass="header"/>
+
+            <TextField fx:id="nameField" promptText="Enter Name" />
+            <TextField fx:id="emailField" promptText="Enter Email" />
+            <TextField fx:id="phoneField" promptText="Enter Phone Number" />
+
+            <Label text="Select Membership Type:"/>
+            <ChoiceBox fx:id="membershipTypeChoice" onAction="#updatePlanOptions"/>
+
+            <Label text="Select Duration:"/>
+            <ChoiceBox fx:id="membershipDurationChoice" onAction="#updateAmount"/>
+
+            <Label fx:id="amountLabel" text="Amount: " />
+
+            <Button text="Register" onAction="#registerMember" styleClass="primary-btn"/>
+
+
+        </VBox>
+    </children>
+</AnchorPane>

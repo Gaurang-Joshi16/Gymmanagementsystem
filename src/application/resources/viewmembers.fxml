@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="application.controller.ViewMembersController"
+            prefWidth="600" prefHeight="400"
+            style="-fx-background-color: linear-gradient(to bottom, #f2f2f2, #d9d9d9);">
+
+    <children>
+        <VBox spacing="15" alignment="CENTER" prefWidth="600" prefHeight="400"
+              AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+
+            <Label text="Membership Plans"
+                   style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;"/>
+
+            <ScrollPane fitToWidth="true" prefHeight="300" prefWidth="550">
+                <content>
+                    <VBox fx:id="plansContainer" spacing="20" alignment="CENTER">
+                        <padding>
+                            <Insets top="20" right="20" bottom="20" left="20"/>
+                        </padding>
+                    </VBox>
+                </content>
+            </ScrollPane>
+
+            <HBox spacing="15" alignment="CENTER">
+                <Button text="Back" onAction="#goBack"
+                        style="-fx-font-size: 14px; -fx-background-color: #34495e; -fx-text-fill: white; -fx-background-radius: 10; -fx-padding: 8 20;"/>
+
+
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

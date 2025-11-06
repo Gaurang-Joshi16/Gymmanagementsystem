@@ -1,0 +1,7 @@
+John Doe  (18) - Gold
+John Jones | jonjones@gmail.com | 897945163 | Premium | 3 Months | 2800
+Gaurang  | gaurang@gmail.com | 6544791378 | Premium | 3 Months | ₹2800
+xtz | zeezes@gmail.com | 13787984546 | VIP | 6 Months | ₹10000
+PARTH  | parth@gmail.com | 4489795165 | VIP | 3 Months | ₹5500
+abc | abc@123 | 7874654643 | Basic | 1 Month | ₹500
+Gaurang  | Gaurang | 986652232 | VIP | 3 Months | ₹5500

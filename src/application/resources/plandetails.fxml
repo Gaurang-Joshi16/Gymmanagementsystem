@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="application.controller.PlanDetailsController"
+            fitToWidth="true" fitToHeight="true"
+            stylesheets="@style.css"
+            prefWidth="400" prefHeight="400">
+    <content>
+        <VBox spacing="20" padding="20" alignment="TOP_CENTER" styleClass="root-container">
+
+            <Label text="Membership Plans" styleClass="heading"/>
+
+            <VBox spacing="10" alignment="TOP_LEFT" styleClass="plan-card">
+                <Label text="Silver Plan" styleClass="plan-title"/>
+                <Label text="• Gym access\n• 2 Personal Training Sessions\n• Group Classes" styleClass="plan-details"/>
+            </VBox>
+
+            <VBox spacing="10" alignment="TOP_LEFT" styleClass="plan-card">
+                <Label text="Gold Plan" styleClass="plan-title"/>
+                <Label text="• Gym access\n• 5 Personal Training Sessions\n• Group Classes\n• Nutrition Plan" styleClass="plan-details"/>
+            </VBox>
+
+            <VBox spacing="10" alignment="TOP_LEFT" styleClass="plan-card">
+                <Label text="Platinum Plan" styleClass="plan-title"/>
+                <Label text="• Gym access\n• Unlimited Personal Training\n• Group Classes\n• Nutrition & Wellness Plan" styleClass="plan-details"/>
+            </VBox>
+        </VBox>
+    </content>
+</ScrollPane>

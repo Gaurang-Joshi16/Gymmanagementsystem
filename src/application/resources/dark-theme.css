@@ -1,0 +1,66 @@
+/* ===============================
+   Global App Styling (Dark Theme)
+   =============================== */
+
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #1e1e1e, #2c2c2c);
+}
+
+.heading {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f4b183;
+}
+
+.label {
+    -fx-text-fill: #ddd;
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #f4b183;
+    -fx-text-fill: #1e1e1e;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #e39a67;
+}
+
+.text-field, .choice-box {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+    -fx-border-color: #555;
+}
+
+.text-field:focused, .choice-box:focused {
+    -fx-border-color: #f4b183;
+}
+
+/* Membership Cards */
+.plan-card {
+    -fx-background-color: #2e2e2e;
+    -fx-background-radius: 12;
+    -fx-padding: 15 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 6, 0, 0, 3);
+}
+
+.plan-title {
+    -fx-text-fill: #f4b183;
+}
+
+.plan-detail {
+    -fx-text-fill: #cccccc;
+}
+.button {
+    -fx-transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    -fx-scale-x: 1.08;
+    -fx-scale-y: 1.08;
+    -fx-cursor: hand;
+}
